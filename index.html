@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компания XYZ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css "/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css "/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Компания XYZ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        <form id="feedback-form">
+            <input type="text" placeholder="Имя" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </header>
+
+    <section id="home" class="parallax">
+        <div class="container">
+            <h2>Добро пожаловать в Компанию XYZ</h2>
+            <p>Мы предлагаем широкий спектр услуг для вашего бизнеса.</p>
+        </div>
+    </section>
+
+    <section id="companies">
+        <div class="container">
+            <h2>Наши дочерние компании</h2>
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <img src="company1.jpg" alt="Компания 1">
+                    <div class="carousel-description">
+                        <h3>Компания 1</h3>
+                        <p>Описание деятельности Компании 1.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="company2.jpg" alt="Компания 2">
+                    <div class="carousel-description">
+                        <h3>Компания 2</h3>
+                        <p>Описание деятельности Компании 2.</p>
+                    </div>
+                </div>
+                <!-- Добавьте остальные слайды аналогично -->
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Услуга 1</h3>
+                    <p>Подробное описание услуги 1.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Услуга 2</h3>
+                    <p>Подробное описание услуги 2.</p>
+                </div>
+                <!-- Добавьте остальные услуги аналогично -->
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <h2>Отзывы клиентов</h2>
+            <div class="reviews-list">
+                <div class="review-item">
+                    <p>"Отличные услуги! Рекомендую всем!"</p>
+                    <p>- Иван Иванов</p>
+                </div>
+                <div class="review-item">
+                    <p>"Быстро и качественно выполнили работу."</p>
+                    <p>- Мария Петрова</p>
+                </div>
+                <!-- Добавьте остальные отзывы аналогично -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Свяжитесь с нами по телефону: +7 (999) 999-99-99</p>
+            <p>Email: info@example.com</p>
+            <address>
+                Адрес: г. Москва, ул. Ленина, д. 1
+            </address>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
