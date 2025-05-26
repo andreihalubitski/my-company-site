@@ -15,4 +15,10 @@ $(document).ready(function(){
         var scrollTop = $(this).scrollTop();
         $('#home').css('background-position', 'center ' + (scrollTop * 0.5) + 'px');
     });
+
+    $('#feedback-form').on('submit', function(event) {
+        event.preventDefault();
+        alert('Спасибо за ваше сообщение!');
+        // Здесь можно добавить код для отправки формы на сервер
+    });
 });
