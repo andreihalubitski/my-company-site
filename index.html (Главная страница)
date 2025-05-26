@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CGICO</title>
+    <title>Компания XYZ</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "></script>
@@ -13,12 +13,12 @@
 <body>
     <header>
         <div class="container">
-            <h1>CGICO</h1>
+            <h1>Компания XYZ</h1>
             <nav>
                 <ul>
-                    <li><a href="#home">Главная</a></li>
-                    <li><a href="#services">Услуги</a></li>
-                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,7 +32,7 @@
 
     <section id="home" class="parallax">
         <div class="container">
-            <h2>Добро пожаловать в CGICO</h2>
+            <h2>Добро пожаловать в Компанию XYZ</h2>
             <p>Мы предлагаем широкий спектр услуг для вашего бизнеса.</p>
         </div>
     </section>
@@ -42,20 +42,45 @@
             <h2>Наши дочерние компании</h2>
             <div class="carousel">
                 <div class="carousel-slide">
-                    <img src="2.jpg" 
+                    <img src="images/company1.jpg" alt="Компания 1">
                     <div class="carousel-description">
                         <h3>Компания 1</h3>
                         <p>Описание деятельности Компании 1.</p>
+                        <a href="company1.html" class="learn-more">Подробнее</a>
                     </div>
                 </div>
                 <div class="carousel-slide">
-                    <img src="company2.jpg" alt="Компания 2">
+                    <img src="images/company2.jpg" alt="Компания 2">
                     <div class="carousel-description">
                         <h3>Компания 2</h3>
                         <p>Описание деятельности Компании 2.</p>
+                        <a href="company2.html" class="learn-more">Подробнее</a>
                     </div>
                 </div>
-                <!-- Добавьте остальные слайды аналогично -->
+                <div class="carousel-slide">
+                    <img src="images/company3.jpg" alt="Компания 3">
+                    <div class="carousel-description">
+                        <h3>Компания 3</h3>
+                        <p>Описание деятельности Компании 3.</p>
+                        <a href="company3.html" class="learn-more">Подробнее</a>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/company4.jpg" alt="Компания 4">
+                    <div class="carousel-description">
+                        <h3>Компания 4</h3>
+                        <p>Описание деятельности Компании 4.</p>
+                        <a href="company4.html" class="learn-more">Подробнее</a>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/company5.jpg" alt="Компания 5">
+                    <div class="carousel-description">
+                        <h3>Компания 5</h3>
+                        <p>Описание деятельности Компании 5.</p>
+                        <a href="company5.html" class="learn-more">Подробнее</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -72,7 +97,14 @@
                     <h3>Услуга 2</h3>
                     <p>Подробное описание услуги 2.</p>
                 </div>
-                <!-- Добавьте остальные услуги аналогично -->
+                <div class="service-item">
+                    <h3>Услуга 3</h3>
+                    <p>Подробное описание услуги 3.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Услуга 4</h3>
+                    <p>Подробное описание услуги 4.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -89,7 +121,10 @@
                     <p>"Быстро и качественно выполнили работу."</p>
                     <p>- Мария Петрова</p>
                 </div>
-                <!-- Добавьте остальные отзывы аналогично -->
+                <div class="review-item">
+                    <p>"Всегда на связи и помогают решить любые вопросы."</p>
+                    <p>- Сергей Сидоров</p>
+                </div>
             </div>
         </div>
     </section>
@@ -102,6 +137,13 @@
             <address>
                 Адрес: г. Москва, ул. Ленина, д. 1
             </address>
+            <div class="social-icons">
+                <a href="https://facebook.com " target="_blank"><img src="images/social-icons/facebook.svg" alt="Facebook"></a>
+                <a href="https://twitter.com " target="_blank"><img src="images/social-icons/twitter.svg" alt="Twitter"></a>
+                <a href="https://instagram.com " target="_blank"><img src="images/social-icons/instagram.svg" alt="Instagram"></a>
+                <a href="https://linkedin.com " target="_blank"><img src="images/social-icons/linkedin.svg" alt="LinkedIn"></a>
+                <a href="https://youtube.com " target="_blank"><img src="images/social-icons/youtube.svg" alt="YouTube"></a>
+            </div>
         </div>
     </section>
 
