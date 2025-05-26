@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги Компании XYZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Компания XYZ</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Услуга 1</h3>
+                    <p>Подробное описание услуги 1.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Услуга 2</h3>
+                    <p>Подробное описание услуги 2.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Услуга 3</h3>
+                    <p>Подробное описание услуги 3.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Услуга 4</h3>
+                    <p>Подробное описание услуги 4.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Компания XYZ. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
